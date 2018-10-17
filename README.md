@@ -1,4 +1,4 @@
-# Evidian SafeKit - High Availability Cluster with Synchronous Replication and Failover in Azure
+# Evidian SafeKit - High Availability Cluster with Synchronous Replication and Failover in Azure - Mirror module
 
 [![](https://camo.githubusercontent.com/9285dd3998997a0835869065bb15e5d500475034/687474703a2f2f617a7572656465706c6f792e6e65742f6465706c6f79627574746f6e2e706e67)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fd6p%2Fazure-quickstart-templates%2Fsafekit-cluster-mirror%2Fsafekit-cluster-mirror%2Fazuredeploy.json) 
 
