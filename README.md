@@ -2,6 +2,8 @@
 
 [![](https://camo.githubusercontent.com/9285dd3998997a0835869065bb15e5d500475034/687474703a2f2f617a7572656465706c6f792e6e65742f6465706c6f79627574746f6e2e706e67)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fd6p%2Fazure-quickstart-templates%2Fsafekit-cluster-mirror%2Fsafekit-cluster-mirror%2Fazuredeploy.json) 
 
+`Tags: high availability, cluster, replication, real-time replication, synchronous replication, failover, business continuity, disaster recovery, mirror, evidian, safekit`
+
 *   [Description](#description)
 *   [Deployed resources](#resources)
 *   [Usage](#use)
@@ -44,7 +46,7 @@ In term of load balancer, this template deploys:
 
 After deployment, go to the output panel and
 
-*   visit the credential url to get the client and CA certificates in your web browser
+*   visit the credential url to install the client and CA certificates in your web browser
 *   after certificates installation, start the web console of the cluster
 *   test the primary/secondary virtual IP address with the test URL in the output
 
