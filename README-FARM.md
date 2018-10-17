@@ -17,7 +17,7 @@ On the previous figure,
 
 *   the critical application is running in all servers of the farm
 *   users are connected to a virtual IP address which is configured in the Azure load balancer
-*   SafeKit brings a generic health probe for the load balancer When the farm module is stopped in a server, the health probe returns NOK to the load balancer which stops the load balancing of requests to the server. The same behavior happens when there is a **hardware failure**
+*   SafeKit brings a generic health probe for the load balancer. When the farm module is stopped in a server, the health probe returns NOK and the load balancer stops the load balancing of requests to the server. The same behavior happens when there is a **hardware failure**
 *   in each server, SafeKit monitors the critical application with process checkers and custom checkers
 *   SafeKit restarts automatically the critical application in a server when there is a **software failure** thanks to restart scripts
 *   a connector for the SafeKit web console is installed in each server. Thus, the load balancing cluster can be managed in a very simple way to avoid **human errors**
