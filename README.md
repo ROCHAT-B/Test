@@ -7,7 +7,7 @@
 *   [Usage](#use)
 *   [More information](#more)
 
-## <a name="description"></a>Architecture
+## <a name="description"></a>Description
 
 ![How the Evidian SafeKit mirror cluster implements real-time replication and failover in Azure?](https://www.evidian.com/safekit/images/azure-block-level-file-level-software-data-replication-mirror-cluster.png)
 
