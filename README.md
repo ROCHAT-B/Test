@@ -35,10 +35,10 @@ In term of VMs, this template deploys:
 In term of load balancer, this template deploys:
 
 *   a public load balancer
-*   a public IP is associated with the public load balancer and plays the role of virtual IP
+*   a public IP is associated with the public load balancer and plays the role of the virtual IP
 *   both VMs are in the backend pool of the load balancer
 *   a health probe checks the mirror module state on both VMs
-*   a load balancing rule for external port 9453 / internal port 9453 is set to test the virtual IP
+*   a load balancing rule for external port 9453 / internal port 9453 is set to test the primary/secondary virtual IP
 
 ## <a name="use">How to use</a>
 
