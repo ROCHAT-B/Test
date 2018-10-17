@@ -24,7 +24,7 @@ More information on **Evidian SafeKit**:
 *   [Azure: The Simplest Load Balancing Cluster with Failover](https://www.evidian.com/products/high-availability-software-for-application-clustering/azure-load-balancing-cluster-failover/)
 *   [Azure: The Simplest High Availability Cluster with Synchronous Replication and Failover](https://www.evidian.com/products/high-availability-software-for-application-clustering/azure-high-availability-cluster-synchronous-replication-failover/)
 
-## <a name="install"></a>A single click to install the architecture
+## <a name="install"></a>A single click to install the high availability cluster
 
 To deploy the Evidian SafeKit high availability cluster with replication and failover in Azure, just click on the following button which deploys everything:
 
