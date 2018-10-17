@@ -2,16 +2,16 @@
 
 [![](https://camo.githubusercontent.com/9285dd3998997a0835869065bb15e5d500475034/687474703a2f2f617a7572656465706c6f792e6e65742f6465706c6f79627574746f6e2e706e67)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fd6p%2Fazure-quickstart-templates%2Fsafekit-cluster-mirror%2Fsafekit-cluster-mirror%2Fazuredeploy.json) 
 
-`Tags: high availability, cluster, replication, real-time replication, synchronous replication, failover, business continuity, disaster recovery, mirror, evidian, safekit`
+`Tags: high availability, cluster, replication, real-time replication, synchronous replication, failover, business continuity, disaster recovery, evidian, safekit, mirror`
 
 *   [Description](#description)
 *   [Deployed resources](#resources)
-*   [Usage](#use)
+*   [How to use](#use)
 *   [More information](#more)
 
 ## <a name="description"></a>Description
 
-![How the Evidian SafeKit mirror cluster implements real-time replication and failover in Azure?](https://www.evidian.com/safekit/images/azure-block-level-file-level-software-data-replication-mirror-cluster.png)
+![How the Evidian SafeKit mirror cluster implements real-time replication and failover in Azure?](/images/azure-block-level-file-level-software-data-replication-mirror-cluster.png)
 
 On the previous figure,
 
@@ -25,7 +25,7 @@ On the previous figure,
 
 ## <a name="resources"></a>Deployed resources
 
-In term of VMs, his template deploys:
+In term of VMs, this template deploys:
 
 *   2 VMs (Windows or Linux)
 *   each VM has a public IP address
@@ -43,6 +43,8 @@ In term of load balancer, this template deploys:
 ## <a name="use">Usage</a>
 
 <a name="use">
+
+Click the "deploy to Azure" button at the beginning of this document to deploy the high availability cluster.
 
 After deployment, go to the output panel and
 
