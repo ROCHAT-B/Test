@@ -10,9 +10,9 @@ On the previous figure,
 *   in each server, SafeKit monitors the critical application with process checkers and custom checkers
 *   SafeKit restarts automatically the critical application when there is a **software failure** or a **hardware failure** thanks to restart scripts
 *   SafeKit makes synchronous real-time replication of files containing critical data
-*   a connector for the SafeKit web console is installed in each server. Thus, the real-time replication and failover cluster can be managed in a very simple way to avoid **human errors**
+*   a connector for the SafeKit web console is installed in each server. Thus, the high availability cluster can be managed in a very simple way to avoid **human errors**
 
-More information on Evidian SafeKit:
+More information on **Evidian SafeKit**:
 
 *   [Azure: The Simplest Load Balancing Cluster with Failover](https://www.evidian.com/products/high-availability-software-for-application-clustering/azure-load-balancing-cluster-failover/)
 *   [Azure: The Simplest High Availability Cluster with Synchronous Replication and Failover](https://www.evidian.com/products/high-availability-software-for-application-clustering/azure-high-availability-cluster-synchronous-replication-failover/)
